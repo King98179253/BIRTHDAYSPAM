@@ -3,7 +3,7 @@ from telethon.sync import TelegramClient
 
 
 print(
-    """DEADLY SPAM BOT"""
+    """BHATAKTI ATMA"""
 )
 
 print("\n • Telethon Session •")
