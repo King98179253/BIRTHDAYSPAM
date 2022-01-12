@@ -64,10 +64,10 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't raid on @DEADLY_SPAMMER's Owner"
+                text = f"I can't raid on @ZINDA_H_TU_MERE_LIYE_HEART_HACK Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"This LODU is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = a.first_name
@@ -84,10 +84,10 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't raid on @DEADLY_SPAMMER's Owner"
+                text = f"I can't raid on @ZINDA_H_TU_MERE_LIYE_HEART_HACK Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"This LODU is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = b.first_name
@@ -211,7 +211,7 @@ async def _(e):
             user_idd = a.id
             user_id = int(user_idd)
             if int(user_id) in DEADLYSPAM:
-                text = f" can't raid on @DEADLY_SPAMMER's Owner."
+                text = f" can't raid on @ZINDA_H_TU_MERE_LIYE_HEART_HACK's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -229,7 +229,7 @@ async def _(e):
             user_idd = umser.id
             user_id = int(user_idd)
             if int(user_id) in DEADLYSPAM:
-                text = f" can't raid on @DEADLY_SPAMMER's Owner."
+                text = f" can't raid on @ZINDA_H_TU_MERE_LIYE_HEART_HACK Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -372,7 +372,7 @@ async def _(event):
              a = await event.client.get_entity(user)
              e = a.id
              if int(e) in DEADLYSPAM:
-                    text = f"I can't raid on @DEADLY_SPAMMER's Owner"
+                    text = f"I can't raid on @ZINDA_H_TU_MERE_LIYE_HEART_HACK Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
              elif int(e) in SUDO_USERS:
                     text = f"This guy is a sudo user."
@@ -393,7 +393,7 @@ async def _(event):
                b = await event.client.get_entity(a.sender_id)
                e = b.id
                if int(e) in DEADLYSPAM:
-                       text = f"I can't raid on @DEADLY_SPAMMER's Owner"
+                       text = f"I can't raid on @ZINDA_H_TU_MERE_LIYE_HEART_HACK Owner"
                        await event.reply(text, parse_mode=None, link_preview=None )
                elif int(e) in SUDO_USERS:
                        text = f"This guy is a sudo user."
