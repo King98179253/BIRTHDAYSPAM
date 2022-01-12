@@ -168,7 +168,7 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't Dm To @DEADLY_SPAMMER's Owner"
+                text = f"I can't Dm To @ZINDA_H_TU_MERE_LIYE_HEART_HACK Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -176,7 +176,7 @@ async def spam(e):
             else:
                 message = str(Deadlysexy[1])
                 counter = int(Deadly[0])
-                await e.reply("☢️ Dm Spam Started ☢️")
+                await e.reply("🔜 Dm Spam Started ☸ ")
                 for _ in range(counter):
                     async with e.client.action(g, "typing"):
                         await e.client.send_message(g, message)
@@ -186,14 +186,14 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't Dm To @DEADLY_SPAMMER's Owner"
+                text = f"I can't Dm To @ZINDA_H_TU_MERE_LIYE_HEART_HACK Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:           
                  counter = int(Deadly[0])
-                 await e.reply("☢️ Dm Spam Started ☢️")
+                 await e.reply("🔜Dm Spam Started☸ ")
                  for _ in range(counter):
                      async with e.client.action(g, "document"):
                         smex = await e.client.send_file(g, smex, caption=smex.text)
@@ -205,14 +205,14 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't Dm To @Deadly_SpamMER's Owner"
+                text = f"I can't Dm To @ZINDA_H_TU_MERE_LIYE_HEART_HACK Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 counter = int(Deadly[0])
-                await e.reply("☢️ Dm Spam Started ☢️")
+                await e.reply("🔜Dm Spam Started ☸")
                 for _ in range(counter):
                     async with e.client.action(g, "typing"):
                         await e.client.send_message(g, message)
@@ -270,7 +270,7 @@ async def pspam(e):
         if len(rizoel) == 1:
             counter = int(rizoel[0])
             if int(e.chat_id) in GROUP:
-                text = f"Sorry !! I can't spam here"
+                text = f"Sorry !! I can't spam here🛐"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                  porrn = random.choice(PORMS)
