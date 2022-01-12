@@ -35,7 +35,7 @@ async def tb(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
+        await ok.edit(f"**Added `{target}` **  a sudo user 🔱 Restarting.. Please wait 💫a few minute...")
         heroku_var[DEADLYSPAM] = newsudo
 
         
