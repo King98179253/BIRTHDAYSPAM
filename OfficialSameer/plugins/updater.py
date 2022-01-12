@@ -13,7 +13,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/sameerpanthi/DEADLY-SPAM-BOT"
+UPSTREAM_REPO = "https://github.com/King98179253/BIRTHDAYSPAM"
 BOT_IS_UP_TO_DATE = "**The Deadly X Spam** is up-to-date sur."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
@@ -71,7 +71,7 @@ RESTARTING_APP = "re-starting heroku application"
 @SAM40.on(events.NewMessage(incoming=True, pattern=r"\%supdate(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in DEV:
-        text = "__ updating Your Deadly Userbots __\n **Type** .ping **After 5min To check I'm On !!**"
+        text = "__ updating Your BHATAKTI Userbots __\n **Type** .ping **After 5min To check I'm On !!**"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
