@@ -1,7 +1,7 @@
 # BIRTHDAY SPAMMER
 
 <p align="center">
-  <img src="https://telegra.ph/file/b8e3d5d94082a37b61d8a.jpg">
+  <img src="https://telegra.ph/file/1892b78bacdeb91e47e94.jpg">
 </p>
 
 
