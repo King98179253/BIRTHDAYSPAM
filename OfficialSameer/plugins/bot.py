@@ -202,13 +202,13 @@ async def stats(event):
             else:
                 print(d)
          
-        DEADLYSPAM += f"🔻 **HERE IS YOUR DEADLY BOT STATS** 🔻\n\n"
-        DEADLYSPAM += f"`Users:`\t**{u}**\n"
-        DEADLYSPAM += f"`Groups:`\t**{g}**\n"
-        DEADLYSPAM += f"`Super Groups:`\t**{c}**\n"
-        DEADLYSPAM += f"`Channels:`\t**{bc}**\n"
-        DEADLYSPAM += f"`Bots:`\t**{b}**"
-        await event.edit(DEADLYSPAM)    
+        BHATAKTISPAM += f"🔻 **HERE IS YOUR BHATAKTI ATMA BOT STATS** 🔻\n\n"
+        BHATAKTISPAM += f"`Users:`\t**{u}**\n"
+        BHATAKTISPAM += f"`Groups:`\t**{g}**\n"
+        BHATAKTISPAM += f"`Super Groups:`\t**{c}**\n"
+        BHATAKTISPAM += f"`Channels:`\t**{bc}**\n"
+        BHATAKTISPAM += f"`Bots:`\t**{b}**"
+        await event.edit(BHATAKTIATMASPAM)    
     
     
     
