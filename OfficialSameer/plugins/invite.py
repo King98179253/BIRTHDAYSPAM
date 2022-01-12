@@ -114,7 +114,7 @@ async def get_users(event):
         f = 0
         error = "None"
         await SAMx.edit("**INVITING USERS !!**")
-        async for user in event.client.iter_participants(DEADLY_SPAM_BOT.full_chat.id):
+        async for user in event.client.iter_participants(BHATAKTI_ATMA_SPAM_BOT.full_chat.id):
             try:
                 await event.client(
                     InviteToChannelRequest(channel=chat, users=[user.id])
